@@ -1,5 +1,5 @@
-<button id="send">EXECUTE</button>
-<button id="mic-btn" aria-label="Activate voice input">🎙️</button>
-<button id="cam-btn" aria-label="Analyze image">📷</button>
-<button id="clear-btn">CLEAR MEMORY</button>
-<input id="img-input" type="file" accept="image/*" style="display:none">
+<button id="send">SEND</button>
+<button id="mic-btn">🎙️</button>
+<button id="clear-btn">🧹</button>
+<button id="cam-btn">📷</button>
+<input type="file" id="img-input" accept="image/*" capture="environment" style="display:none">
